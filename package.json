@@ -4,6 +4,11 @@
   "description": "API wrapper for Discord user accounts",
   "main": "dist/selfcore.js",
   "type": "module",
+  "homepage": "https://github.com/DanDev95/selfcore",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanDev95/selfcore"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node dist/app.js"
