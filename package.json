@@ -1,0 +1,24 @@
+{
+  "name": "selfcore",
+  "version": "1.0.3",
+  "description": "API wrapper for Discord user accounts",
+  "main": "dist/selfcore.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app.js"
+  },
+  "author": "DanDev",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.7.2",
+    "axios": "^0.21.1",
+    "ws": "^8.2.0",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.7",
+    "dotenv": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
