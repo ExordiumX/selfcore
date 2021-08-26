@@ -57,6 +57,20 @@ class Selfcore {
     }
   }
 
+  async joinGuild(invite: string): Promise<void | Error> {
+    try {
+      console.log(this.headers);
+
+      let res = await axios.post(
+        `https://discord.com/api/v9/invites/${invite}`,
+        { headers: this.headers }
+      );
+    } catch (err) {
+      console.log(err);
+      return { error: err };
+    }
+  }
+
   async sendWebhook(
     url: string,
     message: string | WebHook
