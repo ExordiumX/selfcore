@@ -63,6 +63,7 @@ class Selfcore {
 
       let res = await axios.post(
         `https://discord.com/api/v9/invites/${invite}`,
+        undefined,
         { headers: this.headers }
       );
     } catch (err) {
