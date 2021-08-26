@@ -4,7 +4,7 @@ import WebSocket from "ws";
 import EventEmitter from "events";
 const eventEmitter = new EventEmitter();
 
-class selfcore {
+class Selfcore {
   token: string;
   headers: object;
 
@@ -88,7 +88,7 @@ class selfcore {
     }
   }
 
-  static gateway = class extends EventEmitter {
+  static Gateway = class extends EventEmitter {
     token: string;
     interval: any;
     ws: WebSocket;
@@ -140,4 +140,4 @@ class selfcore {
   };
 }
 
-export default selfcore;
+export default Selfcore;
