@@ -2,6 +2,7 @@ import axios from "axios";
 import { Message, Error, WebHook } from "./types";
 import WebSocket from "ws";
 import EventEmitter from "events";
+
 const eventEmitter = new EventEmitter();
 
 class Selfcore {
