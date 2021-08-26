@@ -79,8 +79,6 @@ class Selfcore {
   ): Promise<Object | Error> {
     try {
       if (typeof message === "object") {
-        console.log(message);
-
         let res = await axios.post(url, message);
         return res.data;
       } else {
