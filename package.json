@@ -1,6 +1,6 @@
 {
   "name": "selfcore",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "API wrapper for Discord user accounts",
   "main": "dist/selfcore.js",
   "type": "module",
