@@ -73,7 +73,7 @@ class Selfcore {
     }
   }
 
-  async sendWebhook(
+  static async sendWebhook(
     url: string,
     message: string | WebHook
   ): Promise<Object | Error> {
